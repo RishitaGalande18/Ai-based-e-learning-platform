@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ChatBot from './ChatBot';
+import ChatBot from './Chatbot';
 import './FloatingChatbot.css';
 
 const FloatingChatbot = ({ user }) => {
