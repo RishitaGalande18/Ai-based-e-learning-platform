@@ -35,7 +35,7 @@ const Header = ({ isAuth }) => {
           <Link to="/courses" className="nav-link">Courses</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to={`/${user?._id}/dashboard`} className="nav-link">Dashboard</Link>
-          <Link to="/profile" className="nav-link">Profile</Link>
+         
           <Link to="/aiquiz" className="nav-link">AI Quiz</Link>
 
         </nav>
