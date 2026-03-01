@@ -1,6 +1,6 @@
 // src/components/chatbot/ChatBot.jsx
 import React, { useState, useRef, useEffect } from 'react';
-import './ChatBot.css';
+import './chatbot.css';
 import { generateResponse } from '../../services/GeminiChat';
 
 const getSystemTheme = () =>
