@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+
   "author": "",
   "license": "ISC",
+
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -23,6 +30,7 @@
     "stripe": "^18.3.0",
     "uuid": "^9.0.1"
   },
+
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
