@@ -27,7 +27,7 @@ import AdminUsers from "./admin/Users/AdminUsers";
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import VoiceModeController from './components/VoiceModeController';
-import FloatingChatbot from './components/ChatBot/FloatingChatbot';
+import FloatingChatbot from './components/Chatbot/FloatingChatbot';
 import ExternalRedirect from "./components/AiQuiz/AiQuiz";
 import QuizHistory from "./pages/dashbord/QuizHistory";
 
